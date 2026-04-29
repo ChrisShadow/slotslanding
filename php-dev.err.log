@@ -1,0 +1,187 @@
+[Wed Apr 29 13:06:28 2026] PHP 8.2.4 Development Server (http://127.0.0.1:8000) started
+[Wed Apr 29 13:06:43 2026] 127.0.0.1:55533 Accepted
+[Wed Apr 29 13:06:46 2026] 127.0.0.1:55533 [405]: GET /api/pedido.php
+[Wed Apr 29 13:06:46 2026] 127.0.0.1:55533 Closing
+[Wed Apr 29 13:06:55 2026] 127.0.0.1:55538 Accepted
+[Wed Apr 29 13:06:55 2026] 127.0.0.1:55538 [422]: POST /api/pedido.php
+[Wed Apr 29 13:06:55 2026] 127.0.0.1:55538 Closing
+[Wed Apr 29 13:14:34 2026] 127.0.0.1:55623 Accepted
+[Wed Apr 29 13:14:34 2026] 127.0.0.1:55624 Accepted
+[Wed Apr 29 13:14:35 2026] 127.0.0.1:55624 [200]: GET /
+[Wed Apr 29 13:14:35 2026] 127.0.0.1:55624 Closing
+[Wed Apr 29 13:14:35 2026] 127.0.0.1:55623 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 13:14:35 2026] 127.0.0.1:55623 Closing
+[Wed Apr 29 13:14:36 2026] 127.0.0.1:55627 Accepted
+[Wed Apr 29 13:14:36 2026] 127.0.0.1:55627 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 13:14:36 2026] 127.0.0.1:55627 Closing
+[Wed Apr 29 13:14:37 2026] 127.0.0.1:55628 Accepted
+[Wed Apr 29 13:14:37 2026] 127.0.0.1:55628 [404]: GET /favicon.ico - No such file or directory
+[Wed Apr 29 13:14:37 2026] 127.0.0.1:55628 Closing
+[Wed Apr 29 13:14:39 2026] 127.0.0.1:55629 Accepted
+[Wed Apr 29 13:14:39 2026] 127.0.0.1:55629 [200]: GET /images/kitgsc.png
+[Wed Apr 29 13:14:39 2026] 127.0.0.1:55629 Closing
+[Wed Apr 29 13:15:58 2026] 127.0.0.1:55649 Accepted
+[Wed Apr 29 13:15:58 2026] 127.0.0.1:55649 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 13:15:58 2026] 127.0.0.1:55649 Closing
+[Wed Apr 29 13:15:58 2026] 127.0.0.1:55650 Accepted
+[Wed Apr 29 13:15:58 2026] 127.0.0.1:55650 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Wed Apr 29 13:15:58 2026] 127.0.0.1:55650 Closing
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55659 Accepted
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55660 Accepted
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55660 [200]: GET /
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55660 Closing
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55659 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55659 Closing
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55661 Accepted
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55661 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Wed Apr 29 13:16:13 2026] 127.0.0.1:55661 Closing
+[Wed Apr 29 13:16:14 2026] 127.0.0.1:55663 Accepted
+[Wed Apr 29 13:16:14 2026] 127.0.0.1:55663 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 13:16:14 2026] 127.0.0.1:55663 Closing
+[Wed Apr 29 13:16:14 2026] 127.0.0.1:55665 Accepted
+[Wed Apr 29 13:16:14 2026] 127.0.0.1:55665 [200]: GET /images/kitgsc.png
+[Wed Apr 29 13:16:14 2026] 127.0.0.1:55665 Closing
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55673 Accepted
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55674 Accepted
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55674 [200]: GET /
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55674 Closing
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55673 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55673 Closing
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55675 Accepted
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55675 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 13:16:29 2026] 127.0.0.1:55675 Closing
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55678 Accepted
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55678 [200]: GET /
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55678 Closing
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55679 Accepted
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55679 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55679 Closing
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55680 Accepted
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55680 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 13:16:33 2026] 127.0.0.1:55680 Closing
+[Wed Apr 29 13:16:34 2026] 127.0.0.1:55681 Accepted
+[Wed Apr 29 13:16:34 2026] 127.0.0.1:55681 [404]: GET /favicon.ico - No such file or directory
+[Wed Apr 29 13:16:34 2026] 127.0.0.1:55681 Closing
+[Wed Apr 29 13:16:35 2026] 127.0.0.1:55682 Accepted
+[Wed Apr 29 13:16:35 2026] 127.0.0.1:55682 [200]: GET /images/kitgsc.png
+[Wed Apr 29 13:16:35 2026] 127.0.0.1:55682 Closing
+[Wed Apr 29 13:17:52 2026] 127.0.0.1:55686 Accepted
+[Wed Apr 29 13:17:53 2026] [SRS pedido] No se pudo enviar el correo: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[Wed Apr 29 13:17:53 2026] 127.0.0.1:55686 [500]: POST /api/pedido.php
+[Wed Apr 29 13:17:53 2026] 127.0.0.1:55686 Closing
+[Wed Apr 29 13:19:00 2026] 127.0.0.1:55705 Accepted
+[Wed Apr 29 13:19:00 2026] 127.0.0.1:55706 Accepted
+[Wed Apr 29 13:19:00 2026] 127.0.0.1:55705 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 13:19:00 2026] 127.0.0.1:55706 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Wed Apr 29 13:19:00 2026] 127.0.0.1:55706 Closing
+[Wed Apr 29 13:19:00 2026] 127.0.0.1:55705 Closing
+[Wed Apr 29 13:21:04 2026] 127.0.0.1:55774 Accepted
+[Wed Apr 29 13:21:09 2026] [SRS pedido] No se pudo enviar el correo: SMTP Error: Could not authenticate.
+[Wed Apr 29 13:21:09 2026] 127.0.0.1:55774 [500]: POST /api/pedido.php
+[Wed Apr 29 13:21:09 2026] 127.0.0.1:55774 Closing
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55781 Accepted
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55782 Accepted
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55781 [200]: GET /
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55781 Closing
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55782 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55782 Closing
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55785 Accepted
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55785 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 13:21:30 2026] 127.0.0.1:55785 Closing
+[Wed Apr 29 13:22:49 2026] 127.0.0.1:55793 Accepted
+[Wed Apr 29 13:22:52 2026] [SRS pedido] No se pudo enviar el correo: SMTP Error: Could not authenticate.
+[Wed Apr 29 13:22:52 2026] 127.0.0.1:55793 [500]: POST /api/pedido.php
+[Wed Apr 29 13:22:52 2026] 127.0.0.1:55793 Closing
+[Wed Apr 29 13:22:56 2026] 127.0.0.1:55797 Accepted
+[Wed Apr 29 13:22:56 2026] 127.0.0.1:55797 [200]: GET /images/kitgsc.png
+[Wed Apr 29 13:22:56 2026] 127.0.0.1:55797 Closing
+[Wed Apr 29 14:16:16 2026] 127.0.0.1:56337 Accepted
+[Wed Apr 29 14:16:16 2026] 127.0.0.1:56338 Accepted
+[Wed Apr 29 14:16:16 2026] 127.0.0.1:56337 [200]: GET /
+[Wed Apr 29 14:16:16 2026] 127.0.0.1:56337 Closing
+[Wed Apr 29 14:16:16 2026] 127.0.0.1:56338 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 14:16:16 2026] 127.0.0.1:56338 Closing
+[Wed Apr 29 14:16:17 2026] 127.0.0.1:56340 Accepted
+[Wed Apr 29 14:16:17 2026] 127.0.0.1:56340 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 14:16:17 2026] 127.0.0.1:56340 Closing
+[Wed Apr 29 14:16:17 2026] 127.0.0.1:56341 Accepted
+[Wed Apr 29 14:16:17 2026] 127.0.0.1:56341 [200]: GET /images/kitgsc.png
+[Wed Apr 29 14:16:17 2026] 127.0.0.1:56341 Closing
+[Wed Apr 29 14:17:09 2026] 127.0.0.1:56345 Accepted
+[Wed Apr 29 14:17:16 2026] 127.0.0.1:56345 [200]: POST /api/pedido.php
+[Wed Apr 29 14:17:16 2026] 127.0.0.1:56345 Closing
+[Wed Apr 29 14:33:43 2026] 127.0.0.1:56499 Accepted
+[Wed Apr 29 14:33:43 2026] 127.0.0.1:56500 Accepted
+[Wed Apr 29 14:33:43 2026] 127.0.0.1:56500 [200]: GET /images/kitgsc.png
+[Wed Apr 29 14:33:43 2026] 127.0.0.1:56500 Closing
+[Wed Apr 29 14:35:06 2026] 127.0.0.1:56499 Closed without sending a request; it was probably just an unused speculative preconnection
+[Wed Apr 29 14:35:06 2026] 127.0.0.1:56499 Closing
+[Wed Apr 29 14:37:25 2026] 127.0.0.1:56541 Accepted
+[Wed Apr 29 14:37:25 2026] 127.0.0.1:56542 Accepted
+[Wed Apr 29 14:37:25 2026] 127.0.0.1:56542 [405]: GET /api/pedido.php
+[Wed Apr 29 14:37:25 2026] 127.0.0.1:56542 Closing
+[Wed Apr 29 14:37:26 2026] 127.0.0.1:56541 [422]: POST /api/pedido.php
+[Wed Apr 29 14:37:26 2026] 127.0.0.1:56541 Closing
+[Wed Apr 29 14:39:41 2026] 127.0.0.1:56559 Accepted
+[Wed Apr 29 14:39:41 2026] 127.0.0.1:56560 Accepted
+[Wed Apr 29 14:39:41 2026] 127.0.0.1:56560 [200]: GET /
+[Wed Apr 29 14:39:41 2026] 127.0.0.1:56560 Closing
+[Wed Apr 29 14:39:41 2026] 127.0.0.1:56559 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 14:39:41 2026] 127.0.0.1:56559 Closing
+[Wed Apr 29 14:39:42 2026] 127.0.0.1:56562 Accepted
+[Wed Apr 29 14:39:42 2026] 127.0.0.1:56562 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 14:39:42 2026] 127.0.0.1:56562 Closing
+[Wed Apr 29 14:39:42 2026] 127.0.0.1:56563 Accepted
+[Wed Apr 29 14:39:42 2026] 127.0.0.1:56563 [200]: GET /images/kitgsc.png
+[Wed Apr 29 14:39:42 2026] 127.0.0.1:56563 Closing
+[Wed Apr 29 15:23:55 2026] 127.0.0.1:56974 Accepted
+[Wed Apr 29 15:23:55 2026] 127.0.0.1:56975 Accepted
+[Wed Apr 29 15:23:55 2026] 127.0.0.1:56975 [200]: GET /
+[Wed Apr 29 15:23:55 2026] 127.0.0.1:56975 Closing
+[Wed Apr 29 15:23:56 2026] 127.0.0.1:56974 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 15:23:56 2026] 127.0.0.1:56974 Closing
+[Wed Apr 29 15:23:56 2026] 127.0.0.1:56979 Accepted
+[Wed Apr 29 15:23:56 2026] 127.0.0.1:56979 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 15:23:56 2026] 127.0.0.1:56979 Closing
+[Wed Apr 29 15:23:58 2026] 127.0.0.1:56980 Accepted
+[Wed Apr 29 15:23:58 2026] 127.0.0.1:56980 [200]: GET /images/kitgsc.png
+[Wed Apr 29 15:23:58 2026] 127.0.0.1:56980 Closing
+[Wed Apr 29 15:57:21 2026] 127.0.0.1:58596 Accepted
+[Wed Apr 29 15:57:21 2026] 127.0.0.1:58597 Accepted
+[Wed Apr 29 15:57:23 2026] 127.0.0.1:58597 [404]: GET /favicon.ico - No such file or directory
+[Wed Apr 29 15:57:23 2026] 127.0.0.1:58597 Closing
+[Wed Apr 29 15:57:34 2026] 127.0.0.1:58605 Accepted
+[Wed Apr 29 16:05:06 2026] 127.0.0.1:58596 Closed without sending a request; it was probably just an unused speculative preconnection
+[Wed Apr 29 16:05:06 2026] 127.0.0.1:58596 Closing
+[Wed Apr 29 16:05:06 2026] 127.0.0.1:58605 Closed without sending a request; it was probably just an unused speculative preconnection
+[Wed Apr 29 16:05:06 2026] 127.0.0.1:58605 Closing
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58923 Accepted
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58924 Accepted
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58923 [200]: GET /
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58923 Closing
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58924 [200]: GET /_astro/index.DVrUmgIl.css
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58924 Closing
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58927 Accepted
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58927 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 16:26:26 2026] 127.0.0.1:58927 Closing
+[Wed Apr 29 16:26:28 2026] 127.0.0.1:58929 Accepted
+[Wed Apr 29 16:26:28 2026] 127.0.0.1:58929 [200]: GET /images/kitgsc.png
+[Wed Apr 29 16:26:28 2026] 127.0.0.1:58929 Closing
+[Wed Apr 29 16:30:06 2026] 127.0.0.1:58970 Accepted
+[Wed Apr 29 16:30:06 2026] 127.0.0.1:58971 Accepted
+[Wed Apr 29 16:30:06 2026] 127.0.0.1:58970 [200]: GET /
+[Wed Apr 29 16:30:06 2026] 127.0.0.1:58970 Closing
+[Wed Apr 29 16:30:06 2026] 127.0.0.1:58971 [200]: GET /_astro/index.CRsjkEoj.css
+[Wed Apr 29 16:30:06 2026] 127.0.0.1:58971 Closing
+[Wed Apr 29 16:30:07 2026] 127.0.0.1:58972 Accepted
+[Wed Apr 29 16:30:07 2026] 127.0.0.1:58972 [200]: GET /images/srs-hero-dashboard.png
+[Wed Apr 29 16:30:07 2026] 127.0.0.1:58972 Closing
+[Wed Apr 29 16:30:17 2026] 127.0.0.1:58974 Accepted
+[Wed Apr 29 16:30:17 2026] 127.0.0.1:58974 [200]: GET /images/kitgsc.png
+[Wed Apr 29 16:30:17 2026] 127.0.0.1:58974 Closing
+[Wed Apr 29 16:30:31 2026] 127.0.0.1:58976 Accepted
+[Wed Apr 29 16:30:31 2026] 127.0.0.1:58976 [200]: GET /_astro/index.CRsjkEoj.css
+[Wed Apr 29 16:30:31 2026] 127.0.0.1:58976 Closing
+[Wed Apr 29 16:30:31 2026] 127.0.0.1:58977 Accepted
+[Wed Apr 29 16:30:31 2026] 127.0.0.1:58977 [404]: GET /.well-known/appspecific/com.chrome.devtools.json - No such file or directory
+[Wed Apr 29 16:30:31 2026] 127.0.0.1:58977 Closing
