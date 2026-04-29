@@ -1,0 +1,14 @@
+node_modules/
+vendor/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+server/config.php
+*.log
+*.zip
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

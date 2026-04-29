@@ -1,0 +1,9 @@
+{
+  "name": "quattro/srs-landing",
+  "description": "Landing SRS con endpoint PHP para pedidos por correo y Telegram.",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "phpmailer/phpmailer": "^6.9"
+  }
+}

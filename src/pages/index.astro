@@ -1,0 +1,335 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const benefits = [
+  {
+    title: "Acceso online",
+    text: "Consulta recaudación, movimientos y datos operativos desde cualquier lugar.",
+  },
+  {
+    title: "Control transparente",
+    text: "Cada máquina queda registrada con ubicación, movimientos e ingresos.",
+  },
+  {
+    title: "Reportes para crecer",
+    text: "Detecta locales fuertes, oportunidades de mejora y decisiones de expansión.",
+  },
+  {
+    title: "Trabajo ordenado",
+    text: "Controla pagos manuales, préstamos, comisiones y movimientos de máquinas.",
+  },
+];
+
+const modules = [
+  "Recaudación / Agentes",
+  "Auditoría",
+  "Caja / Ventas",
+  "Conectados",
+  "Liquidaciones / Flujo",
+];
+
+const controls = [
+  {
+    title: "Operador",
+    text: "Administra máquinas, ingresos, egresos, locales y rendimiento diario.",
+  },
+  {
+    title: "CONAJZAR",
+    text: "Puede fiscalizar sistemas, condiciones técnicas y controles requeridos.",
+  },
+  {
+    title: "Municipio",
+    text: "Valida habilitaciones, cánones y obligaciones dentro de su jurisdicción.",
+  },
+];
+---
+
+<BaseLayout
+  title="SRS - Sistema de Recaudación de Slots"
+  description="Landing de SRS, sistema online para control de recaudación, máquinas, agentes, locales y Kit GSC para slots."
+>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true"></div>
+      <nav class="topbar" aria-label="Navegacion principal">
+        <a class="brand" href="#inicio" aria-label="SRS inicio">
+          <span>SRS</span>
+          <small>Slots Revenue System</small>
+        </a>
+        <div class="nav-links">
+          <a href="#beneficios">Beneficios</a>
+          <a href="#modulos">Modulos</a>
+          <a href="#planes">Planes</a>
+          <a href="#pedido">Pedido</a>
+        </div>
+      </nav>
+
+      <div id="inicio" class="hero-content reveal">
+        <p class="eyebrow">Sistema online para operadores de slots</p>
+        <h1 id="hero-title">Control total de recaudación, máquinas y datos reales.</h1>
+        <p class="hero-lead">
+          SRS une gestión administrativa, auditoría y monitoreo físico con Kit GSC
+          para que cada decisión se tome con información clara y segura.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#pedido">
+            <span>Solicitar prueba</span>
+            <span class="button-icon" aria-hidden="true">→</span>
+          </a>
+          <a class="button ghost" href="#modulos">
+            <span>Ver solución</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-strip" aria-label="Indicadores de SRS">
+      <div>
+        <strong>14 dias</strong>
+        <span>prueba gratuita</span>
+      </div>
+      <div>
+        <strong>Gs. 33.000</strong>
+        <span>combo por máquina</span>
+      </div>
+      <div>
+        <strong>USD 285</strong>
+        <span>Kit GSC por máquina</span>
+      </div>
+      <div>
+        <strong>Online</strong>
+        <span>correo y Telegram</span>
+      </div>
+    </section>
+
+    <section id="beneficios" class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">Beneficios clave</p>
+        <h2>Una operación más clara, medible y fácil de supervisar.</h2>
+      </div>
+      <div class="benefit-grid">
+        {benefits.map((benefit) => (
+          <article class="benefit-card reveal">
+            <span class="mark" aria-hidden="true"></span>
+            <h3>{benefit.title}</h3>
+            <p>{benefit.text}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section id="modulos" class="section split-section">
+      <div class="section-head sticky-copy reveal">
+        <p class="eyebrow">Combo de Sistemas</p>
+        <h2>La parte digital para ordenar la gestión diaria.</h2>
+        <p>
+          Los módulos trabajan juntos para controlar recaudación, auditoría,
+          pagos, reclamos, movimientos operativos y liquidaciones.
+        </p>
+      </div>
+
+      <div class="module-stack">
+        {modules.map((module, index) => (
+          <article class="module-row reveal">
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <h3>{module}</h3>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="gsc-band">
+      <div class="gsc-content reveal">
+        <p class="eyebrow">Kit GSC</p>
+        <h2>Control físico instalado directamente en cada tragamonedas.</h2>
+        <p>
+          El Kit GSC registra automáticamente entrada y salida de contadores,
+          reduce errores manuales y aporta trazabilidad para operadores y entes
+          de control.
+        </p>
+      </div>
+      <div class="device-visual reveal">
+        <img
+          src="/images/kitgsc.png"
+          alt="Kit GSC para control electrónico de tragamonedas"
+          loading="lazy"
+          width="1600"
+          height="1000"
+        />
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">Seguimiento</p>
+        <h2>Transparencia para todos los actores que intervienen.</h2>
+      </div>
+      <div class="control-grid">
+        {controls.map((control) => (
+          <article class="control-card reveal">
+            <h3>{control.title}</h3>
+            <p>{control.text}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section id="planes" class="section pricing-section">
+      <div class="section-head reveal">
+        <p class="eyebrow">Planes</p>
+        <h2>Prueba primero, escala después con control completo.</h2>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card reveal">
+          <span>Prueba</span>
+          <strong>14 dias</strong>
+          <p>Acceso sin costo para conocer la plataforma y evaluar la operación real.</p>
+        </article>
+        <article class="price-card featured reveal">
+          <span>Combo de Sistemas</span>
+          <strong>Gs. 33.000</strong>
+          <p>Por máquina, con módulos administrativos principales incluidos.</p>
+        </article>
+        <article class="price-card reveal">
+          <span>Kit GSC</span>
+          <strong>USD 285</strong>
+          <p>Por máquina, con dispositivo y software para control automático.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pedido" class="section contact-section">
+      <div class="section-head reveal">
+        <p class="eyebrow">Pedidos</p>
+        <h2>Solicita una demo o cotización para tu operación.</h2>
+        <p>
+          Comparte tus datos y coordinamos una presentación enfocada en tus
+          locales, cantidad de máquinas y necesidades de control.
+        </p>
+      </div>
+
+      <form class="order-form reveal" action="/api/pedido.php" method="post" data-order-form>
+        <label>
+          <span>Nombre y apellido</span>
+          <input name="name" type="text" autocomplete="name" placeholder="Ej. Juan Perez" required />
+        </label>
+        <label>
+          <span>Empresa</span>
+          <input name="company" type="text" placeholder="Ej. Slots Paraguay" />
+        </label>
+        <label>
+          <span>Teléfono</span>
+          <input name="phone" type="tel" autocomplete="tel" placeholder="+595..." required />
+        </label>
+        <label>
+          <span>Email</span>
+          <input name="email" type="email" autocomplete="email" placeholder="contacto@empresa.com" required />
+        </label>
+        <label>
+          <span>Ciudad</span>
+          <input name="city" type="text" placeholder="Ej. Asunción" />
+        </label>
+        <label>
+          <span>Cantidad de máquinas</span>
+          <input name="machines" type="number" min="1" placeholder="35" />
+        </label>
+        <label class="full">
+          <span>Interes</span>
+          <select name="interest">
+            <option>Prueba gratuita</option>
+            <option>Cotización</option>
+            <option>Demo</option>
+            <option>Consulta general</option>
+          </select>
+        </label>
+        <label class="full">
+          <span>Mensaje</span>
+          <textarea name="message" rows="4" placeholder="Cuentanos que necesitas controlar o implementar."></textarea>
+        </label>
+        <input class="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" />
+        <button class="button primary form-button" type="submit">
+          <span>Enviar pedido</span>
+          <span class="button-icon" aria-hidden="true">→</span>
+        </button>
+        <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <p>© 2026 Quattro Inversiones SA</p>
+    </footer>
+  </main>
+
+  <script>
+    const revealItems = document.querySelectorAll(".reveal");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.14 },
+    );
+
+    revealItems.forEach((item) => observer.observe(item));
+
+    const form = document.querySelector("[data-order-form]");
+    const status = document.querySelector("[data-form-status]");
+
+    form?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      const submitButton = form.querySelector("button[type='submit']");
+      const textNode = submitButton?.querySelector("span");
+      const defaultText = textNode?.textContent ?? "Enviar pedido";
+
+      if (status) {
+        status.textContent = "";
+        status.dataset.state = "";
+      }
+
+      submitButton?.setAttribute("disabled", "true");
+      if (textNode) textNode.textContent = "Enviando...";
+
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: {
+            Accept: "application/json",
+          },
+        });
+
+        const result = await response.json().catch(() => ({
+          ok: false,
+          message: "No se pudo interpretar la respuesta del servidor.",
+        }));
+
+        if (!response.ok || !result.ok) {
+          throw new Error(result.message || "No se pudo enviar el pedido.");
+        }
+
+        form.reset();
+
+        if (status) {
+          status.textContent = result.message || "Pedido enviado correctamente.";
+          status.dataset.state = "success";
+        }
+      } catch (error) {
+        if (status) {
+          status.textContent = error instanceof Error
+            ? error.message
+            : "No se pudo enviar el pedido. Intente nuevamente.";
+          status.dataset.state = "error";
+        }
+      } finally {
+        submitButton?.removeAttribute("disabled");
+        if (textNode) textNode.textContent = defaultText;
+      }
+    });
+  </script>
+</BaseLayout>
