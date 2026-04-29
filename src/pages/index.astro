@@ -51,18 +51,23 @@ const controls = [
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-media" aria-hidden="true"></div>
-      <nav class="topbar" aria-label="Navegacion principal">
+      <header class="topbar" data-site-header>
         <a class="brand" href="#inicio" aria-label="SRS inicio">
           <span>SRS</span>
           <small>Slots Revenue System</small>
         </a>
-        <div class="nav-links">
+        <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links" aria-label="Navegación principal" data-nav-menu>
           <a href="#beneficios">Beneficios</a>
           <a href="#modulos">Modulos</a>
           <a href="#planes">Planes</a>
           <a href="#pedido">Pedido</a>
-        </div>
-      </nav>
+        </nav>
+      </header>
 
       <div id="inicio" class="hero-content reveal">
         <p class="eyebrow">Sistema online para operadores de slots</p>
@@ -276,6 +281,28 @@ const controls = [
     );
 
     revealItems.forEach((item) => observer.observe(item));
+
+    const header = document.querySelector("[data-site-header]");
+    const menuToggle = document.querySelector("[data-menu-toggle]");
+    const navMenu = document.querySelector("[data-nav-menu]");
+
+    const closeMenu = () => {
+      header?.classList.remove("is-open");
+      menuToggle?.setAttribute("aria-expanded", "false");
+    };
+
+    menuToggle?.addEventListener("click", () => {
+      const isOpen = header?.classList.toggle("is-open") ?? false;
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    navMenu?.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", closeMenu);
+    });
+
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeMenu();
+    });
 
     const form = document.querySelector("[data-order-form]");
     const status = document.querySelector("[data-form-status]");
